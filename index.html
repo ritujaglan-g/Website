@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="pro.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div>
+        <div class="name1">10C</div>
+      <div class="name2">Coding Campus</div>
+    </div id="main-content">
+      <div class="name" onclick="boxselection">Home</div>
+      <div class="name">About Us</div>
+      <div class="name">Contact us</div>
+      <div class="name">Services</div>
+    </div>
+    <div id="color">
+      <div id="name5">Coding Campus</div>
+
+      <div id="name6">
+        <div>
+          <div id="name3">
+            <div>Teaching and</div>
+            <div>Learning Center</div>
+          </div>
+          <div id="name4">
+            <div>Further your professional</div>
+            <div>development width</div>
+            <div>site courses,webinars and teaching material</div>
+          </div>
+        </div>
+        <div id="name7">
+          <img src="web-design-3411373_640.webp" alt="laptop" />
+        </div>
+      </div>
+    </div>
+    <div id="courses">
+      <div id="courses-text">Courses</div>
+    <div id="courses-content">
+      <div class="courses-content-box">
+        <h1>Front-End</h1>
+        <p>Beginners to Advance
+          in Front-End
+          Web Developer
+          </p>
+      </div>
+       <div class="courses-content-box">
+        <h1>Back-End</h1>
+        <p>Beginners to Advance
+          in Back-End
+          Web Developer
+          </p>
+       </div>
+      <div class="courses-content-box">
+        <h1>Cyber Security</h1>
+        <p>Beginners to Advance
+          in Cyber Security
+          </p>
+      </div>
+    </div>
+    </div>
+<div id="features">
+  <div id="features-text"> Our Academy Features</div>
+  <div id="features-content">
+    <div id="content-text" class="features-content-text"  onmouseenter="boxselection()" onmouseleave="boxselectionclose()">
+    <h1>Placement </h1>
+    <p>Our Accademy gives you guaranteed placement
+    </p>
+    </div>
+    <div id="content-text-2" class="features-content-text"  onmouseenter="boxselection()" onmouseleave="boxselectionclose()">
+      <h1>Weekly Test</h1>
+      <p>Every Week Tests are taken by teachers and inspiring excellence every day placemen</p>
+      </div>
+      <div id="content-text-3" class="features-content-text"  onmouseenter="boxselection()" onmouseleave="boxselectionclose()">
+        <h1>Facility </h1>
+        <p>Good Facilities are provided by our Academy
+
+        </p>
+        </div>
+  </div>
+</div>
+
+    <div id="footer">
+      <div id="footer-courses">
+        <div id="footer-courses-heading">Top Courses</div>
+          <div class="footer-courses-text">Full Stack</div>
+          <div class="footer-courses-text">Front-End</div>
+          <div class="footer-courses-text">Cyber-security</div>
+          <div class="footer-courses-text">Ethical Hacking</div>
+          <div class="footer-courses-text">Digital marketing</div>
+        </div>
+<div id="footer-features">
+    <div id="footer-features-heading">Features</div>
+      <div class="footer-features-text">Placement</div>
+      <div class="footer-features-text">Tests</div>
+      <div class="footer-features-text">Good Facilities</div>
+    </div>
+</div>
+    </div>d('content-text-3').classList.add("snowdrop");
+      
+
+    <script>
+      function boxselection(){
+        document.getElementById('content-text').classList.add("snowdrop");
+        document.getElementById('content-text-2').classList.add("snowdrop");
+        document.getElementById('content-text-3').classList.add("snowdrop");
+    
+      function boxselectionclose(){
+        document.getElementById('name4').classList.toggle('game');
+      }
+    }
+
+    </script>
+
+
+  </body>
+</html>
